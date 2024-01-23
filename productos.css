@@ -1,0 +1,143 @@
+header{
+    background-color: #ff8c00;
+    padding: 20px 0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#logo{
+    width: 30%;
+}
+
+
+nav{
+    position:absolute;
+    top: 150px;
+    right: 0;
+}
+
+nav li{
+
+    display: inline;
+    margin: 0 0 0 30px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Comic Sans MS;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+color: #ffffff;
+text-decoration: underline;
+}
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 32%;
+    vertical-align: top;
+    margin: 0 0.5%;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    
+}
+
+.productos li:hover{
+    border-color: #ff8c00;
+    
+}
+
+.productos li:active{
+    border-color: #11e102;
+    
+}
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Comic Sans MS;
+    padding: 20px;
+}
+
+.productos li:hover h2{
+    font-size: 35px;
+}
+
+#taco{
+    width: 40%;
+}
+
+#pizza{
+    width: 35%;
+}
+
+#paquete{
+    width: 35%;
+}
+
+.producto-descripcion-taco{
+    font-size: 18px;
+    margin-top: 30px;
+    font-family: Comic Sans MS; 
+}
+
+.producto-descripcion{
+    font-size: 18px;
+    margin-top: 30px;
+    font-family: Comic Sans MS;
+}
+
+.producto-precio{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 40px;
+    font-family: Comic Sans MS;
+}
+
+.producto-precio-pizza{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 40px;
+    font-family: Comic Sans MS;
+}
+.producto-paquete{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 40px;
+    font-family: Comic Sans MS;
+
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/fondo.jpg);
+    padding: 40px
+}
+
+#blanco{
+    width: 7%;
+}
+
+.copyright{
+    color: #ffffff;
+    margin: 20px;
+    font-size: 13px;
+}
